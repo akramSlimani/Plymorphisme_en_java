@@ -1,5 +1,3 @@
-package exo2Partiel2022;
-
 public abstract class Vehicule {
 
 	private String immatriculation;
