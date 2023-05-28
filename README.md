@@ -48,7 +48,9 @@ La classe FourgonnetteElectrique est une sous-classe de Fourgonnette qui implém
 La classe MainConvoi contient les méthodes principales du programme. Elle comprend les fonctionnalités suivantes :
 
 Une méthode `vitesseMaxConvoi(Object[] convoi)` qui parcourt un tableau d'objets "convoi" et retourne la vitesse maximale parmi les véhicules présents. Si un élément du convoi n'est pas un véhicule, une exception de type VehiculeException est levée.
+
 Une méthode infoConvoi(Object[] convoi) qui affiche les informations sur chaque véhicule du convoi en utilisant la méthode toString(), puis affiche la vitesse maximale du convoi en appelant la méthode vitesseMaxConvoi().
+
 La méthode main(String[] args) qui crée des tableaux de véhicules (camions et fourgonnettes) et appelle les méthodes infoConvoi() pour afficher les informations sur les convois.
 
 Note: Assurez-vous d'avoir toutes les classes dans le même package pour exécuter le programme correctement.
@@ -68,22 +70,3 @@ Vitesse max du convoi : 80
 Vitesse max du convoi : 100
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-N'hésitez pas à explorer le code source et à exécuter le programme pour observer le fonctionnement des algorithmes de tri sur le tableau d'éléments.
-
-**Note**: Assurez-vous d'avoir les classes "Element", "TableauEl" et "Test" dans le même package pour exécuter le programme correctement.
-
-### Exemple d'exécution :
-
-Après avoir donnée une au tableau et choisi une méthode de tris
