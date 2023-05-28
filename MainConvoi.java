@@ -1,5 +1,3 @@
-package exo2Partiel2022;
-
 public class MainConvoi {
 
 	public static int vitesseMaxConvoi(Object[] convoi) throws VehiculeException{
