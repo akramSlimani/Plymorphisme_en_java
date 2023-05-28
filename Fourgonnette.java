@@ -1,5 +1,3 @@
-package exo2Partiel2022;
-
 public class Fourgonnette extends Vehicule {
 
 	public static final String type = " Fourgonnette ";
